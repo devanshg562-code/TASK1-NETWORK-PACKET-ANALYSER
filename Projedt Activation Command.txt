@@ -1,0 +1,5 @@
+1. ping google.com - t (Ctrl+C) press stop.
+2. cd D:\TASK1_Network_Packet_Analyzer
+3. python src/packet_analyzer.py --count 20
+4. Save command - python src/packet_analyzer.py --count 30 --pcap captures/capture.pcap
+5. Saved file ko offline read karne ke liye - python src/packet_analyzer.py --read-pcap captures/capture.pcap
